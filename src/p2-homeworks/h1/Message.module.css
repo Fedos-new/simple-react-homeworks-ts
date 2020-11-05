@@ -1,3 +1,63 @@
-.message {
-
+div.speech {
+    position: relative;
+    max-width: 350px;
+    min-height: 50px;
+    line-height: 1;
+    background-color: #33393F;
+    border: 5px solid #33393F;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 7px;
+    display: inline-block;
+    margin: 50px 115px;
+    padding-left: 5px;
+    padding-right: 5px;
 }
+
+div.speech:before {
+    content: ' ';
+    position: absolute;
+    left: -17px;
+    border: 11px solid transparent;
+    border-right: 11px solid #33393F;
+    border-bottom: 11px solid #33393F;
+    line-height: 0;
+    margin-top: 100px;
+    bottom: -5px;
+}
+
+.fio {
+    color: #B383F3;
+    font: bold 12pt Calibri;
+    text-align: left;
+    line-height: 0;
+}
+
+.message {
+    color: #F5F5F5;
+    font: 12pt Calibri;
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+.time {
+    color: #828D79;
+    font: 10pt Calibri;
+    text-align: right;
+    line-height: 0;
+    padding-right: 5px;
+    position: relative;
+    bottom: 7px;
+    margin-bottom: -1px;
+}
+
+.image {
+    border-radius: 50px;
+    width: 50px;
+    height: 50px;
+    padding: 5px;
+    position: relative;
+    left: 98px;
+    bottom: 2px;
+}
+

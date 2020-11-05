@@ -1,11 +1,20 @@
 import React from "react";
+import Message from "./Message";
 
 const messageData = {
-    avatar: "https://sun9-74.userapi.com/Ph-WiuOtF985il9AvN9JqiCWedmHtSGSSTXrSA/ltEB2Z2-YO4.jpg",
-    name: "Some Name",
-    message: "some text",
+    avatar: "https://www.meme-arsenal.com/memes/b877babd9c07f94b952c7f152c4e264e.jpg",
+    name: "Ivanov Ivan Ivanovich",
+    message: 'Чем отличается "==" от "==="? Строгое сравнение "===" сравнивает типы. А "==" нестрогое сравнивает значения',
     time: "22:00",
 };
+
+export type MessageDataType = {
+    avatar: string
+    name: string
+    message: string
+    time: string
+}
+
 
 function HW1() {
     return (
@@ -13,14 +22,14 @@ function HW1() {
             <hr/>
             homeworks 1
 
-            {/*should work (должно работать)*/}
+            should work (должно работать)
 
-            {/*<Message*/}
-            {/*    avatar={messageData.avatar}*/}
-            {/*    name={messageData.name}*/}
-            {/*    message={messageData.message}*/}
-            {/*    time={messageData.time}*/}
-            {/*/>*/}
+            <Message
+                avatar={messageData.avatar}
+                name={messageData.name}
+                message={messageData.message}
+                time={messageData.time}
+            />
 
             <hr/>
             {/*для личного творчества, могу проверить*/}
