@@ -6,13 +6,15 @@ import SuperCheckbox from "./common/c3-SuperCheckbox/SuperCheckbox";
 
 function HW4() {
     const [text, setText] = useState<string>("");
-    const error = text ? "" : "error";
+    const [error, setError] = useState<string>('');
     const showAlert = () => {
-        if (error) {
+        text ? setError('') : setError('error')
+        if ('error') {
             alert("введите текст...");
         } else {
             alert(text); // если нет ошибки показать текст
         }
+        setText('')
     }
 
     const [checked, setChecked] = useState<boolean>(false);
@@ -30,6 +32,8 @@ function HW4() {
                     onChangeText={setText}
                     onEnter={showAlert}
                     error={error}
+                    setError={setError}
+
                     // className={s.blue} // проверьте, рабоет ли смешивание классов
                 />
 
