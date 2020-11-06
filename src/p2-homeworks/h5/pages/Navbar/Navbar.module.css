@@ -1,0 +1,50 @@
+.wrapper {
+    position: fixed;
+    z-index: 99;
+    top: 31vh;
+    left: -152px;
+    box-shadow: 1px 0 15px #000;
+    border-radius: 10px;
+}
+
+.wrapper:hover {
+    left: 10px;
+    transition: 0.95s;
+}
+
+.nav {
+    background: linear-gradient(to bottom, #D5DEE7 0%, #E8EBF2 50%, #E2E7ED 100%), linear-gradient(to bottom, rgba(0, 0, 0, 0.02) 50%, rgba(255, 255, 255, 0.02) 61%, rgba(0, 0, 0, 0.02) 73%), linear-gradient(33deg, rgba(255, 255, 255, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%);
+    background-blend-mode: normal, color-burn;
+    height: 30vh;
+    width: 155px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.allLinks {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.link {
+    text-decoration: none;
+    color: #d03566;
+    letter-spacing: 1.6px;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 10px 10px;
+}
+
+.link:hover {
+    box-shadow: 1px 0 15px white;
+}
+
+.activeLink {
+    color: #4c84e0;
+
+}
