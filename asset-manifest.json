@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/simple-react-homeworks-ts/static/css/main.4e3be0d4.chunk.css",
-    "main.js": "/simple-react-homeworks-ts/static/js/main.74596102.chunk.js",
-    "main.js.map": "/simple-react-homeworks-ts/static/js/main.74596102.chunk.js.map",
+    "main.css": "/simple-react-homeworks-ts/static/css/main.1d7d8d7c.chunk.css",
+    "main.js": "/simple-react-homeworks-ts/static/js/main.db32f7eb.chunk.js",
+    "main.js.map": "/simple-react-homeworks-ts/static/js/main.db32f7eb.chunk.js.map",
     "runtime-main.js": "/simple-react-homeworks-ts/static/js/runtime-main.7779e124.js",
     "runtime-main.js.map": "/simple-react-homeworks-ts/static/js/runtime-main.7779e124.js.map",
-    "static/js/2.62e8aaad.chunk.js": "/simple-react-homeworks-ts/static/js/2.62e8aaad.chunk.js",
-    "static/js/2.62e8aaad.chunk.js.map": "/simple-react-homeworks-ts/static/js/2.62e8aaad.chunk.js.map",
+    "static/js/2.a68aa897.chunk.js": "/simple-react-homeworks-ts/static/js/2.a68aa897.chunk.js",
+    "static/js/2.a68aa897.chunk.js.map": "/simple-react-homeworks-ts/static/js/2.a68aa897.chunk.js.map",
     "index.html": "/simple-react-homeworks-ts/index.html",
-    "precache-manifest.891fb7235050b17545e962f725e737ac.js": "/simple-react-homeworks-ts/precache-manifest.891fb7235050b17545e962f725e737ac.js",
+    "precache-manifest.507535fda1b764fe1bc81112b6663f3e.js": "/simple-react-homeworks-ts/precache-manifest.507535fda1b764fe1bc81112b6663f3e.js",
     "service-worker.js": "/simple-react-homeworks-ts/service-worker.js",
-    "static/css/main.4e3be0d4.chunk.css.map": "/simple-react-homeworks-ts/static/css/main.4e3be0d4.chunk.css.map",
-    "static/js/2.62e8aaad.chunk.js.LICENSE.txt": "/simple-react-homeworks-ts/static/js/2.62e8aaad.chunk.js.LICENSE.txt",
+    "static/css/main.1d7d8d7c.chunk.css.map": "/simple-react-homeworks-ts/static/css/main.1d7d8d7c.chunk.css.map",
+    "static/js/2.a68aa897.chunk.js.LICENSE.txt": "/simple-react-homeworks-ts/static/js/2.a68aa897.chunk.js.LICENSE.txt",
     "static/media/404_error.png": "/simple-react-homeworks-ts/static/media/404_error.61b26b9d.png"
   },
   "entrypoints": [
     "static/js/runtime-main.7779e124.js",
-    "static/js/2.62e8aaad.chunk.js",
-    "static/css/main.4e3be0d4.chunk.css",
-    "static/js/main.74596102.chunk.js"
+    "static/js/2.a68aa897.chunk.js",
+    "static/css/main.1d7d8d7c.chunk.css",
+    "static/js/main.db32f7eb.chunk.js"
   ]
 }
