@@ -1,0 +1,24 @@
+.box {
+    position: relative;
+
+}
+.timeStyle {
+    color: #fff;
+    font-size: 26px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    cursor: pointer;
+    padding: 20px 0;
+    text-shadow: 0 0 9px #d03566;
+}
+
+.dateStyle {
+    position: absolute;
+    right: 39%;
+    top: 5%;
+    color: #fff;
+    letter-spacing: 1px;
+    display: flex;
+    flex-wrap: wrap;
+    text-shadow: 1px 0 8px #4c84e0;
+}
