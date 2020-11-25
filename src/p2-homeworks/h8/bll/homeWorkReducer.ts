@@ -7,12 +7,12 @@ export type StateType = Array<{
 type ActionType = SortStateType | CheckingAgeStateType
 
 type SortStateType = {
-    type: "sort",
+    type: "sort"
     payload: string
 }
 
 type CheckingAgeStateType = {
-    type: "check",
+    type: "check"
     payload: number
 }
 
@@ -20,7 +20,7 @@ type CheckingAgeStateType = {
 export const homeWorkReducer = (state: StateType, action: ActionType) => {
     switch (action.type) {
         case "sort": {
-            let copyState = state
+            let copyState = [...state]
             if (action.payload === "up") {
                 return  copyState.sort((a, b) => a.name > b.name ? 1 : -1)
             }
