@@ -1,3 +1,60 @@
-.range {
+.range  {
+    /*-webkit-appearance: none; !* убрать вид, который задан браузером по умолчанию *!*/
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border: none;
+    width: 35%;
+    height: 20px;
+    border-radius: 3px;
+    background: #eeeeee;
+    outline: none;
+    margin: 21px 23px 20px 34px;
+}
 
+.range::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    border: 1px solid #d03566;
+    height: 38px;
+    width: 18px;
+    border-radius: 3px;
+    background: #FFFFFF;
+    cursor: pointer;
+    margin-top: -8px;
+}
+
+/* Тоже самое для Firefox */
+.range::-moz-range-thumb {
+    border: 1px solid #d03566;
+    height: 36px;
+    width: 16px;
+    border-radius: 3px;
+    background: #ffffff;
+    cursor: pointer;
+}
+
+/* Тоже самое для IE */
+.range::-ms-thumb {
+    height: 36px;
+    width: 16px;
+    border-radius: 3px;
+    background: #ffffff;
+    cursor: pointer;
+}
+
+.range::-webkit-slider-thumb:active {
+    transform: scale(1.1);
+    box-shadow: 0 0 9px #d03566;
+}
+
+.range::-webkit-slider-runnable-track {
+    background-color: #861657;
+    background-image: linear-gradient(326deg, #861657 0%, #ffa69e 64%);
+    height: 20px;
+    border-radius: 3px;
+}
+
+span{
+    position: absolute;
+    margin-top: 17px;
 }

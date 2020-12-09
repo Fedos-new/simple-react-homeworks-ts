@@ -1,0 +1,112 @@
+.input-range__slider {
+    appearance: none;
+    background: #FFFFFF;
+    border: 1px solid #d03566;
+    border-radius: 3px;
+    cursor: pointer;
+    display: block;
+    height: 36px;
+    width: 16px;
+    margin-left: -0.4rem;
+    margin-right: 0.4rem;
+    margin-top: -2.9rem;
+    outline: none;
+    position: absolute;
+    /*transition: transform 0.3s ease-out, box-shadow 0.3s ease-out;*/
+}
+
+.input-range__slider:active {
+  transform: scale(1.1);
+  box-shadow: 0 0 9px #d03566;
+}
+
+.input-range--disabled .input-range__slider {
+    background: #cccccc;
+    border: 1px solid #cccccc;
+    box-shadow: none;
+    transform: none;
+}
+
+.input-range__slider-container {
+    transition: left 0.3s ease-out;
+}
+
+.input-range__label {
+    color: #000000;
+    transform: translateZ(0);
+    white-space: nowrap;
+    display: none;
+}
+
+.input-range__label--min,
+.input-range__label--max {
+    bottom: -0.4rem;
+    position: absolute;
+}
+
+.input-range__label--min {
+    left: -20px;
+    display: none;
+
+}
+
+.input-range__label--max {
+  right: -40px;
+    display: none;
+
+}
+
+.input-range__label--value {
+    position: absolute;
+    top: -3.1rem;
+}
+
+.input-range__label-container {
+    left: -50%;
+    position: relative;
+}
+
+.input-range__label--max .input-range__label-container {
+    left: 50%;
+}
+
+.input-range__track {
+    background: #eeeeee;
+    border-radius: 3px;
+    cursor: pointer;
+    display: block;
+    height: 20px;
+    position: relative;
+    transition: left 0.3s ease-out, width 0.3s ease-out;
+}
+
+.input-range--disabled .input-range__track {
+    background: #eeeeee;
+}
+
+.input-range__track--background {
+    left: 0;
+    margin-top: -0.15rem;
+    position: absolute;
+    right: 0;
+    top: 50%;
+}
+
+.input-range__track--active {
+    background: #8a1a5a;
+}
+
+.input-range {
+    height: 20px;
+    position: relative;
+    width: 35%;
+    margin: 15px 29px 15px 29px;
+    left: 5px;
+    display: inline-block;
+}
+
+span{
+    position: absolute;
+    margin-top: 17px;
+}
+/*# sourceMappingURL=index.css.map */
