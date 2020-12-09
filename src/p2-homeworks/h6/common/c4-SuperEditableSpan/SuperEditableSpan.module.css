@@ -1,4 +1,5 @@
 .spanText {
+    display: contents;
     color: white;
     letter-spacing: 0.3px;
     font-size: 18px;
