@@ -21,3 +21,9 @@
 .some-text {
     color: darkslateblue;
 }
+.select{
+    margin: 40px auto;
+}
+.dark-text,.red-text,.some-text{
+    position: unset;
+}

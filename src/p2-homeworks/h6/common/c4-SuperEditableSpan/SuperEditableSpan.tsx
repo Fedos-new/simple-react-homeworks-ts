@@ -49,10 +49,10 @@ const SuperEditableSpan: React.FC<SuperEditableSpanType> = (
         onDoubleClick && onDoubleClick(e);
     };
 
-    const spanClassName = `${s.spanText} ${className}`;
+    const spanClassName = `${s.spanText} ${s.spanTextMargin}`;
 
     return (
-        <>
+        <div className={s.spanTextMargin}>
             {editMode
                 ? (
                     <SuperInputText
@@ -75,7 +75,7 @@ const SuperEditableSpan: React.FC<SuperEditableSpanType> = (
                     </span>
                 )
             }
-        </>
+        </div>
     );
 
 }

@@ -4,5 +4,8 @@
     letter-spacing: 0.3px;
     font-size: 18px;
     font-weight: 600;
-    text-shadow: 1px 0 10px #d03566;
+    text-shadow: 1px 0 10px #d03566;padding: 15px;
+}
+.spanTextMargin{
+    margin: 15px;
 }
