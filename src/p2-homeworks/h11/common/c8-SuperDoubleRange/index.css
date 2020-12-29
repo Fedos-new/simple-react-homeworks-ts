@@ -9,7 +9,7 @@
     width: 16px;
     margin-left: -0.4rem;
     margin-right: 0.4rem;
-    margin-top: -2.9rem;
+    margin-top: -1.9rem;
     outline: none;
     position: absolute;
     /*transition: transform 0.3s ease-out, box-shadow 0.3s ease-out;*/
@@ -105,8 +105,4 @@
     display: inline-block;
 }
 
-span{
-    position: absolute;
-    margin-top: 17px;
-}
 /*# sourceMappingURL=index.css.map */
