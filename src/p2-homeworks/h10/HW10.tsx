@@ -19,7 +19,6 @@ function HW10() {
         <div>
             <hr/>
             homeworks 10
-
             {/*should work (должно работать)*/}
             {loading
                 ? (
@@ -32,7 +31,6 @@ function HW10() {
                     </div>
                 )
             }
-
             <hr/>
             {/*для личного творчества, могу проверить*/}
             {/*<Alternative/>*/}

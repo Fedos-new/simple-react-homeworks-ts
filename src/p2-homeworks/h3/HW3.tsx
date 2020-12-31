@@ -14,9 +14,7 @@ function HW3() {
 
     const addUserCallback = (name: string) => {
         let newUser = {_id: v1(), name: name}
-        debugger
         let AddedUsers = [...users, newUser]
-        debugger
         setUsers(AddedUsers)
     }
 

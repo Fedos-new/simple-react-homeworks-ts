@@ -11,7 +11,6 @@ export const Request = () => {
     let body: AuthTestType = {success: checked}
 
     const requestAuth = () => {
-        debugger
         requestAPI.authTest(body).then(res => setResponse(res))
 
     }
@@ -25,7 +24,7 @@ export const Request = () => {
         >
             <span>Set success</span>
         </SuperCheckbox>
-        <p >{`Response : ${response ? response : ''}`}</p>
+        <p>{`Response : ${response ? response : ''}`}</p>
     </>
 
 }
